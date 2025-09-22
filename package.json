@@ -1,0 +1,11 @@
+{
+  "name": "terraform-infrastructure-deployment",
+  "version": "1.0.0",
+  "description": "Sample Node.js package for Terraform and Flask project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "author": "Shiwankar-Mrunal",
+  "license": "ISC"
+}
