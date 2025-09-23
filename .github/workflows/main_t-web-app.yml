@@ -22,7 +22,7 @@ jobs:
 
       - name: Verify pip installation
         run: |
-          python -m ensurepip --upgarde
+          python -m ensurepip --upgrade
           python -m pip --version
       
       - name: Install dependencies
