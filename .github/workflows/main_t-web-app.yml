@@ -25,6 +25,7 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
+        working-directory: flaskApp
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -35,8 +36,8 @@ jobs:
         with:
           name: python-app
           path: |
-            .
-            !venv/
+            flaskApp/
+            !flaskApp/venv/
 
   deploy:
     runs-on: ubuntu-latest
