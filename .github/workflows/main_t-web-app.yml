@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - donotpush
   workflow_dispatch:
 
 jobs:
