@@ -26,10 +26,10 @@ jobs:
           python -m venv venv
           source venv/bin/activate
         working-directory: flaskApp
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-        working-directory: flaskApp
+      # - name: Install dependencies
+      #   run: |
+      #     pip install -r requirements.txt
+      #   working-directory: flaskApp
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
